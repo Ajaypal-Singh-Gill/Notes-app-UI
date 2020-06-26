@@ -1,13 +1,94 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+  background-color: whitesmoke;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+footer{
+
+  color: grey;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  position: absolute;
+}
+
+header{
+  background-color: skyblue;
+  padding: 16px 32px;
+  margin: auto  -16px;
+  font-size: 3em;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+box-shadow: 0 5px 10px wheat;
+color: white;
+}
+
+.note {
+  display: inline-block;
+  border-radius: 7px;
+  box-shadow: 0 5px 5px gainsboro;
+  background-color: white;
+  padding: 10px;
+  margin: 16px;
+  width: 240px;
+
+}
+.read-more-button
+{
+  color: skyblue;
+}
+
+form{
+  position: relative;
+  border-radius: 7px;
+  box-shadow: 0 5px 5px gainsboro;
+  background-color: white;
+  width: 480px;
+  margin: 16px auto 16px auto;
+  padding: 20px;
+}
+form input,form textarea{
+ width: 100%;
+ border:none;
+ padding:5px;
+ resize:none;
+}
+
+.but-name{
+  position: relative;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color:white;
+  background-color: skyblue;
+  /* outline: none; */
+  border: none;
+  margin: auto 10% -70% 90%;
+  right: 18px;
+  bottom: -25px;
+}
+
+.note button{
+  position: relative;
+  border-radius: 7px;
+
+  color:skyblue;
+  background-color:white;
+  /* outline: none; */
+  border: none;
+  margin: auto 20% auto 80%;
+
+  right: 5px;
+  bottom: -10px;
 }
